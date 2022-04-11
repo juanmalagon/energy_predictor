@@ -9,7 +9,7 @@ Solution for ASHRAE - Great Energy Predictor III
 </p>
 
 ## Running the implementation
-1. Copy the file `train.csv` (647.2 MB) to the folder `./data` (this file is too large to be shared via GitHub). Name the file as `building_meter_readings.csv`.
+1. Copy the file `train.csv` (647.2 MB) to the folder `./data` (this file is too large to be shared via GitHub). Rename the file as `building_meter_readings.csv`.
 2. Create an image by running: `docker build -t ashrae -f Dockerfile .`
 3. Run a container for training by running: `docker run -it --rm --name runtrain ashrae`
 4. Run a container for inference by running: `docker run -it --rm --name runinference ashrae python3 inference.py`
