@@ -1,0 +1,4 @@
+__pycache__/
+**/building_meter_readings.csv
+.idea
+.DS_Store
